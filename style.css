@@ -3,10 +3,25 @@ body {
     margin: 40px auto;
     padding: 0 10px;
     font: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 16px;
+    font-size: 18px;
     color: #444;
   }
 
-nav{
-  font-size: 18px;
+h1{
+  font-size: 28px;
+}
+
+h2{
+  font-size:26px;
+}
+
+.article-date{
+  font-size:16px; /* Makes dates beneath title a little smaller */
+}
+
+a:link {
+  color: #b8860b; /* Unclicked links */
+}
+a:visited {
+  color: #b8860b; /* Clicked links */
 }
