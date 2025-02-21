@@ -1,0 +1,12 @@
+body {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    color: #444;
+  }
+
+nav{
+  font-size: 18px;
+}
