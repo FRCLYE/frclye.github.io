@@ -1,18 +1,30 @@
+@font-face{
+  font-family:'Open Sans';
+  src:url('fonts/OpenSans-Variablet.ttf');
+  font-weight:400;
+  font-style: normal;
+}
+
 body {
-    max-width: 650px;
+    max-width: 750px;   
     margin: 40px auto;
     padding: 0 10px;
-    font: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 18px;
-    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font: size 18px;
+    color:#444;
   }
 
+b{
+  font-weight:600;
+  font-size:16px;
+}
+
 h1{
-  font-size: 26px;
+  font-size: 24px;
 }
 
 h2{
-  font-size:22px;
+  font-size:20px;
 }
 
 .article-date{
